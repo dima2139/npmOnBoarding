@@ -1,9 +1,10 @@
 {
-  "name": "npmonboarding",
-  "version": "1.0.0",
+  "name": "example",
   "type": "module",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "build": "npm run build -w=*"
+  },
   "workspaces": [
     "apps/*",
     "packages/*"
